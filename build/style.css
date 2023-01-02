@@ -595,7 +595,7 @@ footer {
     margin-bottom: 5px;
   }
 
-  section {
-    width: 100%;
+  .qualification {
+    overflow-x: hidden;
   }
 }
