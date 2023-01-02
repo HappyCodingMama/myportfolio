@@ -594,4 +594,8 @@ footer {
   .portfolio__popup-subtitle {
     margin-bottom: 5px;
   }
+
+  section {
+    width: 100%;
+  }
 }
