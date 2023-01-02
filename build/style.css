@@ -35,8 +35,13 @@ input {
   font-family: 'Roboto Slab', serif;
 }
 
+html,
 body {
   overflow-x: hidden;
+}
+
+body {
+  position: relative;
   background-color: var(--color-bg);
 }
 
@@ -593,9 +598,5 @@ footer {
   }
   .portfolio__popup-subtitle {
     margin-bottom: 5px;
-  }
-
-  .qualification {
-    overflow-x: hidden;
   }
 }
