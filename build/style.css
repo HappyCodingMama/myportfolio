@@ -25,10 +25,6 @@
   --color-red: #ef0060;
 }
 
-html {
-  scroll-behavior: smooth;
-}
-
 body,
 button,
 input {

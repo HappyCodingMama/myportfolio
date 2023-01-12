@@ -86,6 +86,7 @@ const modal = document.querySelector('.portfolio__popup');
 const body = document.querySelector('body');
 
 function showModal() {
+  modal.scrollTo(0, 0);
   if (!modal.classList.contains('open')) {
     // Disable scroll
     body.style.overflowY = 'hidden';
