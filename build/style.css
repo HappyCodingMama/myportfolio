@@ -35,11 +35,6 @@ input {
   font-family: 'Roboto Slab', serif;
 }
 
-html,
-body {
-  overflow-x: hidden;
-}
-
 body {
   position: relative;
   background-color: var(--color-bg);
@@ -553,6 +548,11 @@ footer {
 } */
 
 @media only screen and (max-width: 600px) {
+  html,
+  body {
+    overflow-x: hidden;
+  }
+
   .aboutme__texts {
     text-align: center;
     padding: 1.6rem;
