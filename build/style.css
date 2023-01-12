@@ -25,6 +25,10 @@
   --color-red: #ef0060;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body,
 button,
 input {
@@ -505,7 +509,7 @@ img {
 
 /* scrollbar */
 ::-webkit-scrollbar {
-  width: 0.6rem;
+  width: 0.7rem;
   background-color: var(--color-bg-variant);
 }
 
